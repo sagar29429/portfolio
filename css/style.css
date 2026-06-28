@@ -1,0 +1,44 @@
+/* ===========================
+   Google Font
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    background:#0B1120;
+    color:#fff;
+
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+
+
+.skill-card,
+.project-card,
+.certificate-card,
+.contact-card {
+    transition: all 0.3s ease;
+}
+
+.skill-card:hover,
+.project-card:hover,
+.certificate-card:hover,
+.contact-card:hover {
+    transform: translateY(-8px);
+}

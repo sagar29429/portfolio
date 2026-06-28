@@ -1,0 +1,131 @@
+/* ===========================
+        NAVBAR
+=========================== */
+
+.custom-navbar{
+
+    background:rgba(11,17,32,.75);
+
+    backdrop-filter:blur(15px);
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+    padding:16px 0;
+
+    transition:.4s;
+
+}
+
+.logo{
+
+    font-size:32px;
+
+    font-weight:700;
+
+}
+
+.logo span{
+
+    color:#3B82F6;
+
+}
+
+.navbar-nav{
+
+    gap:10px;
+
+}
+
+.nav-link{
+
+    color:#fff;
+
+    font-weight:500;
+
+    position:relative;
+
+    margin:0 8px;
+
+    transition:.3s;
+
+}
+
+.nav-link:hover{
+
+    color:#3B82F6;
+
+}
+
+.nav-link::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-5px;
+
+    width:0;
+
+    height:2px;
+
+    background:#3B82F6;
+
+    transition:.4s;
+
+}
+
+.nav-link:hover::after{
+
+    width:100%;
+
+}
+
+.active{
+
+    color:#3B82F6 !important;
+
+}
+
+.active::after{
+
+    width:100%;
+
+}
+
+.resume-btn{
+
+    padding:12px 26px;
+
+    border-radius:50px;
+
+    background:#3B82F6;
+
+    color:white;
+
+    font-weight:600;
+
+    transition:.4s;
+
+    display:inline-block;
+
+}
+
+.resume-btn:hover{
+
+    background:#2563EB;
+
+    transform:translateY(-3px);
+
+    color:white;
+
+    box-shadow:0 10px 25px rgba(59,130,246,.35);
+
+}
+
+.navbar-toggler{
+
+    color:white;
+
+}

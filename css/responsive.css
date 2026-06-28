@@ -1,0 +1,97 @@
+/* =====================================
+      TABLET (992px)
+===================================== */
+
+@media (max-width:992px){
+
+    .hero-content,
+    .about-content,
+    .contact-wrapper{
+        flex-direction:column;
+        text-align:center;
+        gap:40px;
+    }
+
+    .hero-image,
+    .about-image{
+        margin:auto;
+    }
+
+    .projects-grid,
+    .skills-grid,
+    .certificates-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .education-card{
+        width:100%;
+        margin-left:0;
+    }
+
+}
+
+/* =====================================
+      MOBILE (768px)
+===================================== */
+
+@media (max-width:768px){
+
+    section{
+        padding:80px 0;
+    }
+
+    h1{
+        font-size:42px;
+    }
+
+    h2{
+        font-size:32px;
+    }
+
+    p{
+        font-size:16px;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .projects-grid,
+    .skills-grid,
+    .certificates-grid{
+        grid-template-columns:1fr;
+    }
+
+    .contact-info,
+    .contact-form{
+        width:100%;
+    }
+
+    .footer-social{
+        flex-wrap:wrap;
+    }
+
+}
+
+/* =====================================
+      SMALL MOBILE (480px)
+===================================== */
+
+@media (max-width:480px){
+
+    .hero-image img,
+    .about-image img{
+        width:250px;
+        height:250px;
+    }
+
+    .section-title{
+        font-size:30px;
+    }
+
+    .btn{
+        width:100%;
+    }
+
+}
