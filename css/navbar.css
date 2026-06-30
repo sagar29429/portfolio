@@ -82,16 +82,12 @@
 
 }
 
-.active{
-
+.navbar-nav .nav-link.active{
     color:#3B82F6 !important;
-
 }
 
-.active::after{
-
+.navbar-nav .nav-link.active::after{
     width:100%;
-
 }
 
 .resume-btn{
@@ -128,4 +124,13 @@
 
     color:white;
 
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link{
+    color:#3B82F6 !important;
+}
+
+.navbar-nav .nav-link{
+    color:#fff !important;
 }

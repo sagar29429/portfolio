@@ -1,0 +1,88 @@
+/*==============================
+EXPERIENCE
+==============================*/
+
+.experience{
+    background:#111827;
+    padding:120px 0;
+}
+
+.experience-card{
+    background:#1F2937;
+    border-radius:20px;
+    padding:35px;
+    display:flex;
+    gap:30px;
+    border:1px solid rgba(255,255,255,.08);
+    transition:.4s;
+}
+
+.experience-card:hover{
+    transform:translateY(-8px);
+    border-color:#3B82F6;
+    box-shadow:0 12px 30px rgba(59,130,246,.25);
+}
+
+.experience-icon{
+    width:80px;
+    height:80px;
+    background:#3B82F6;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-shrink:0;
+}
+
+.experience-icon i{
+    font-size:34px;
+    color:#fff;
+}
+
+.experience-content h3{
+    color:#fff;
+    font-weight:700;
+}
+
+.experience-content h5{
+    color:#3B82F6;
+    margin:10px 0;
+}
+
+.exp-location,
+.exp-duration{
+    color:#CBD5E1;
+    margin-bottom:8px;
+}
+
+.exp-location i,
+.exp-duration i{
+    color:#3B82F6;
+    margin-right:8px;
+}
+
+.experience-content ul{
+    color:#CBD5E1;
+    margin-top:20px;
+}
+
+.experience-content li{
+    margin-bottom:10px;
+}
+
+@media(max-width:768px){
+
+.experience-card{
+    flex-direction:column;
+    text-align:center;
+}
+
+.experience-icon{
+    margin:auto;
+}
+
+.experience-content ul{
+    text-align:left;
+}
+
+}

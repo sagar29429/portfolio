@@ -3,79 +3,54 @@ SKILLS
 ==============================*/
 
 .skills{
-
     background:#0F172A;
-
     padding:120px 0;
-
 }
 
 .skill-card{
-
     background:#1F2937;
-
     padding:25px;
-
     border-radius:15px;
-
-    transition:.4s;
-
     border:1px solid rgba(255,255,255,.05);
-
+    transition:.4s;
+    height:100%;
 }
 
 .skill-card:hover{
-
     transform:translateY(-8px);
-
     border-color:#3B82F6;
-
     box-shadow:0 10px 30px rgba(59,130,246,.25);
-
 }
 
 .skill-header{
-
     display:flex;
-
     justify-content:space-between;
-
     align-items:center;
-
     color:#fff;
-
     margin-bottom:15px;
-
     font-weight:600;
+}
 
+.skill-header span:first-child{
+    display:flex;
+    align-items:center;
+    gap:10px;
 }
 
 .skill-header i{
-
     color:#3B82F6;
-
-    font-size:24px;
-
-    margin-right:10px;
-
+    font-size:22px;
 }
 
 .progress{
-
     height:10px;
-
     background:#111827;
-
     border-radius:10px;
-
     overflow:hidden;
-
 }
 
 .progress-bar{
-
     background:#3B82F6;
-
 }
 
 .skill-java{width:90%;}

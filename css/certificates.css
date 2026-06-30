@@ -57,3 +57,30 @@ CERTIFICATES
     background:#2563EB;
     color:#fff;
 }
+
+/* More Achievements Card */
+
+.empty-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 470px;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+.empty-card i{
+    font-size: 50px;
+    color: #3B82F6;
+    margin-bottom: 20px;
+}
+
+.empty-card h4{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.empty-card p{
+    color: #94A3B8;
+}
